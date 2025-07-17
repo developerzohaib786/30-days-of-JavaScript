@@ -1,3 +1,6 @@
+# Problem Statement
+Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+
 ## Normal Function
 A traditional named function that can be reused and called later.
 
