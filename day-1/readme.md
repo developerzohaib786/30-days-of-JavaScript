@@ -1,6 +1,8 @@
 # Problem Statement
 Write a function createHelloWorld. It should return a new function that always returns "Hello World".
 
+# Useful Concepts
+----------------------------------------------------------------------
 ## Normal Function
 A traditional named function that can be reused and called later.
 
@@ -39,4 +41,18 @@ let f=(name)=>{
 };
 
 console.log(f("Zohaib")); 
+```
+
+## Function within Function Concept
+The main parent function will return a child function in this case.
+
+```c
+function f(){
+    return function(name){
+        return    `Hello, ${name}!`;
+    }
+}
+
+const a=f();
+console.log(a("Zohaib"))
 ```
