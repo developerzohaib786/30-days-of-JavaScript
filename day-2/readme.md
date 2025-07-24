@@ -18,7 +18,9 @@ function outerFunction() {
     return innerFunction;
 }
 
-const myClosure = outerFunction(); // outerFunction is called, innerFunction is returned
+const myClosure = outerFunction(); 
+// outerFunction is called,
+//  innerFunction is returned
 myClosure(); // 1
 myClosure(); // 2
 myClosure(); // 3

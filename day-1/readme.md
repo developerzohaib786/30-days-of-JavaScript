@@ -17,6 +17,7 @@ console.log(f('Zohaib'));
 ## Anonmyous Function
 A function without a name, assigned to a variable. Common in callbacks or function expressions.
 ```c
+// Anonmyous Function
 let f=function(name){
     return `Hi, ${name}!`;
 }
